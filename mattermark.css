@@ -1,0 +1,377 @@
+body{
+    margin: 0px;
+}
+.header{
+    background: lightseagreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.phead{
+    color: white;
+}
+.learn{
+    color: white;
+}
+.subhead{
+    display: inline;
+}
+ul{
+    display: inline;
+    margin-top: 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+li{
+    margin: 20px;
+    text-decoration: none;
+    
+}
+.list{
+    display: inline;
+    margin: 20px;
+    text-decoration: none;
+}
+.pri{
+    display: inline;
+    margin: 20px;
+    text-decoration: none;
+    color: deepskyblue;
+}
+a{
+    text-decoration: none;
+    color:  black;
+}
+.parent{
+    list-style-type: none;
+    padding: 0px;
+    width: 200px;
+    color: deepskyblue;
+}
+.dropelement{
+    list-style-type: none;
+    background: white;
+    visibility: hidden;
+    position: absolute;
+    left: -70px;
+    width: 250PX;
+    margin-top: 20px;    
+    border-style: ridge;
+    color: black;
+}
+.dropelement li{
+    /* padding: 5px; */
+}
+.parent:hover .dropelement{
+    visibility: visible;
+}
+.parent:hover li:hover{
+    color: deepskyblue;
+    cursor: pointer;
+    color: black;
+}
+.data{
+    margin-top: 20px;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.datap{
+    font-size: 11px;
+    font-family: Arial;
+}
+.img{
+    margin: 20px;
+}
+h2{
+    text-align: center;
+    font-weight: 400;
+}
+button{
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.but{
+    background: deepskyblue;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.suphead{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.subhead{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.use{
+    background: gainsboro;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.useh{
+    text-align: center;
+}
+.used{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.usep{
+    text-align: justify;
+    font-size: 18px;
+    width: 600px;
+    padding: 60px;
+}
+.uses{
+    font-weight: 20px;
+}
+.dis{
+    padding: 20px;    
+}
+.disd{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.disp{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.diss{
+    text-align: justify;
+    font-size: 18px;
+    width: 600px;
+    padding: 60px;
+}
+.dist{
+    font-size: 30px;
+}
+.track{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.trackp{
+    text-align: justify;
+    font-size: 18px;
+    width: 600px;
+    padding: 60px;
+}
+.tracks{
+    font-size: 20px;
+}
+.inf{
+    padding: 20px;    
+}
+.infd{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.infp{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.infs{
+    text-align: justify;
+    font-size: 18px;
+    width: 600px;
+    padding: 60px;
+}
+.inft{
+    font-size: 30px;
+}
+.auto{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.autop{
+    text-align: justify;
+    font-size: 18px;
+    width: 600px;
+    padding: 60px;
+}
+.autos{
+    font-size: 20px;
+}
+.cus{
+    padding: 20px;
+}
+.cusd{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.cusp{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.cuss{
+    text-align: justify;
+    font-size: 18px;
+    width: 600px;
+    padding: 60px;
+}
+.cust{
+    font-size: 20px;
+}
+.expo{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.expop{
+    text-align: justify;
+    font-size: 18px;
+    width: 600px;
+    padding: 60px;
+}
+.expos{
+    font-size: 20px;
+}
+.deal{
+    background-color: gainsboro;
+}
+.dealh{
+    padding-top: 0px;
+    background: gainsboro;
+    text-align: center;
+}
+.deald{
+    background: gainsboro;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.mid{
+    background-color: gainsboro;
+    display: inline-flex;
+}
+.mids{
+    width: 400px;
+    height: 150px;
+    background-image: url(investors.jpg );
+    background-size: cover;
+    padding: auto;
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+.midt{
+    width: 400px;
+    height: 150px;
+    background-image: url(sales.jpg );
+    background-size: cover;
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+.midp{
+    width: 400px;
+    height: 150px;
+    background-image: url(profservices.jpg );
+    background-size: cover;
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+.midparent{
+    list-style-type: none;
+    padding: 0px;
+    width: 200px;
+    color: white;
+}
+.middropelement{
+    background: ;
+    list-style-type: none;
+    visibility: hidden;
+    position: absolute;
+    width: 350PX;
+    margin-top: 20px;   
+    color: white;
+    font-size: 16px;
+    margin-left: -200px;
+}
+.middropelement li{
+    /* padding: 5px; */
+}
+.midparent:hover .middropelement{
+    visibility: visible;
+}
+.midparent:hover li:hover{
+    cursor: pointer;
+    color: white;
+}
+.mill{
+    padding: 50px;
+    padding-left: 200px;
+}
+h3{
+    color: darkorchid;
+
+}
+.millh{
+    font-size: 45px;
+}
+.buts{
+    background: greenyellow;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin: 20px;
+}
+.butp{
+    font-size: 11px;
+    font-family: Arial;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    padding: 20px;
+}
+.milli{
+    margin-top: 0px;
+}
+.footer{
+    background: gray;
+    margin: 0px;
+    padding: 50px;
+}
+@media (max-width: 768px) {
+    /* Styles for small screens go here */
+    body {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    /* .card-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    } */
+  }
+  
