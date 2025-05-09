@@ -1,5 +1,6 @@
 body{
-    margin: 0px;
+    margin: 0px auto;
+    overflow-x: hidden;
 }
 .header{
     background: lightseagreen;
@@ -144,8 +145,8 @@ button{
 .usep{
     text-align: justify;
     font-size: 18px;
-    /* width: 600px; */
-    /* padding: 60px; */
+    width: 600px;
+    padding: 60px;
 }
 .uses{
     font-size: 25px;
@@ -181,8 +182,8 @@ button{
 .trackp{
     text-align: justify;
     font-size: 18px;
-    /* width: 600px;
-    padding: 60px; */
+    /* width: 600px; */
+    padding: 60px;
 }
 .tracks{
     font-size: 20px;
@@ -204,8 +205,8 @@ button{
 .infs{
     text-align: justify;
     font-size: 18px;
-    /* width: 600px;
-    padding: 60px; */
+    /* width: 600px; */
+    padding: 60px;
 }
 .inft{
     font-size: 30px;
@@ -220,8 +221,8 @@ button{
 .autop{
     text-align: justify;
     font-size: 18px;
-    /* width: 600px;
-    padding: 60px; */
+    /* width: 600px; */
+    padding: 60px;
 }
 .autos{
     font-size: 20px;
@@ -244,8 +245,8 @@ button{
 .cuss{
     text-align: justify;
     font-size: 18px;
-    /* width: 600px;
-    padding: 60px; */
+    /* width: 600px; */
+    padding: 60px;
 }
 .cust{
     font-size: 20px;
@@ -309,7 +310,7 @@ button{
 }
 .midparent{
     list-style-type: none;
-    padding: 0px;
+    /* padding: 0px; */
     width: 200px;
     color: white;
 }
@@ -338,7 +339,7 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 50px;
+    /* padding: 50px; */
     /* padding-left: 200px; */
 }
 h3{
@@ -383,12 +384,15 @@ h3{
     marquee{
         visibility: hidden;
     }
+    body{
+        height: fit-content;
+    }
     .header{
         flex-direction: column;
-        width: fit-content;
+        height: fit-content;
     }
     .heade{
-        width: fit-content;
+        height: fit-content;
     }
     .suphead{
         visibility: hidden;
@@ -398,6 +402,7 @@ h3{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        height: fit-content;
     }
     .iparent:hover .dropelement{
         visibility: visible;
@@ -405,84 +410,105 @@ h3{
     .iparent:hover li:hover{
         cursor: pointer;
         color: white;
+        height: fit-content;
     }
     .datai{
         visibility: hidden;
+        height: fit-content;
     }
     .com{
         flex-direction: column;
+        height: fit-content;
     }
     .use{
         flex-direction: column;
-        width: fit-content;
+        height: fit-content;
     }
     .useh{
         font-size: 50px;
+        height: fit-content;
     }
     .uset{
         width: 400px;
+        height: fit-content;
     }
     .disd{
         flex-direction: column;
         width: 100%;
         font-size:12px;
+        height: fit-content;
     }
     .diss{
         width: 400px;
+        height: fit-content;
     }
     .track{
         flex-direction: column;
+        height: fit-content;
     }
     .tracki{
         width: 400px;
+        height: fit-content;
     }
     .infd{
         flex-direction: column;
+        height: fit-content;
     }
     .infi{
         width: 400px;
+        height: fit-content;
     }
     .auto{
         flex-direction: column;
+        height: fit-content;
     }
     .autoi{
         width: 400px;
+        height: fit-content;
     }
     .cusd{
         flex-direction: column;
+        height: fit-content;
     }
     .cusi{
         width: 400px;
+        height: fit-content;
     }
     .expo{
         flex-direction: column;
+        height: fit-content;
     }
     .expos{
         font-size: 18px;
+        height: fit-content;
     }
     .expoi{
         width: 400px;
+        height: fit-content;
     }
     .mid{
         flex-direction: column;
+        height: fit-content;
     }
     .mill{
         flex-direction: column;
+        height: fit-content;
     }
     .footer{
         flex-direction: column;
+        height: fit-content;
     }
     .footeri{
         padding: 10px;
+        height: fit-content;
     }
     .submenu{
         visibility: hidden;
+        height: fit-content;
     }
     .fa{
         visibility: visible;
-        .submenu{
-            visibility: visible;
-        }
+        height: fit-content;
     }
 
       
